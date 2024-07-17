@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.head-roditel {
+  height: 150px;
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+ul li a {
+  text-decoration: none;
+
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #363853;
+}
+
+ul li a:hover {
+  color: #ff6838;
+}
+
+ul {
+  padding-top: 15px;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.logs {
+  display: flex;
+  gap: 30px;
+  padding-top: 15px;
+}
+
+.header-right {
+  display: flex;
+  gap: 30px;
+}
+
+.sing {
+  /* Secondary */
+  background: #ff7a50;
+  /* Clor shadow */
+  box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+  border-radius: 5px;
+
+  border: none;
+  width: 120px;
+  height: 50px;
+  color: aliceblue;
+}
+
+/* header end  */
+
+@media screen and (max-width: 500px) {
+  .header-right {
+    display: none;
+  }
+
+  .head-roditel {
+    justify-content: center;
+  }
+}
+
+/* section bir  */
+
+.text-super {
+  max-width: 530px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 66px;
+  line-height: 78px;
+  text-transform: capitalize;
+  color: #363853;
+}
+
+
+
+span {
+  color: #ff6838;
+}
+
+.text-we {
+  margin-top: 20px;
+  max-width: 513px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #363853;
+}
+
+.food {
+  margin-top: 50px;
+  width: 163px;
+  height: 50.41px;
+  background: #ff7a50;
+  box-shadow: 0px 22px 40px rgba(255, 104, 56, 0.19);
+  border-radius: 5px;
+  border: none;
+  font-weight: 500;
+  color: aliceblue;
+  font-size: 18px;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+.ye-fud {
+  gap: 30px;
+  display: flex;
+}
+
+.bir-left {
+  margin-top: 150px;
+}
+
+.bir-roditel {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bir-right {
+  max-width: 721px;
+}
+
+.bir-right img {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+
+.container{
+
+max-width: 320px;
+
+}
+
+
+
+  .bir-roditel {
+
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+
+  .bir-left {
+    margin-top: 50px;
+    justify-content: center;    
+    text-align: center;
+  }
+
+  .text-super {
+    width: 320px;
+  }
+}
